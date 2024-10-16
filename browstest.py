@@ -12,7 +12,7 @@ options.add_argument('--start-fullscreen')  # Start Chrome in fullscreen mode
 driver = webdriver.Chrome(options=options)
 
 # Step 2: Open the webpage
-url = 'https://the.streameast.app/mlb-playoffs/houston-astros-detroit-tigers/26489504'
+url = 'URL for Livestream page'
 driver.get(url)
 
 # Wait for the page to load
